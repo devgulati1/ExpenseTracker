@@ -15,6 +15,53 @@ nav h1{
     margin: 0px;
     padding: 20px;
 }
+.total-cash-input-div{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    font-size: 20px;
+}
+.totalCashInput{
+  font-size: 14px;
+    padding: 2px;
+    
+}
+.total-cash-input-btn{
+    border: 2px solid black;
+    border-radius: 3px;
+    background-color: #F4E285;
+    font-size: 0.75em;
+}
+.total-cash-input-btn:hover{
+    background-color: #F4A259;
+}
+
+.balnceCash{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+  
+    
+    
+    
+}
+.totalCashDiv, .balanceDiv{
+    margin: 20px;
+    
+}
+
+.totalCashInput{
+    margin: 4px;
+    border:2px solid black;
+    border-radius: 5px;
+    
+}
+
+
 .add-item-text{
     text-align: center;
 }
@@ -35,7 +82,7 @@ nav h1{
     margin: 5px;
     font-size: 14px;
     border: 2px solid black;
-    border-radius: 5px ;
+    border-radius: 10px ;
     
    
 }
