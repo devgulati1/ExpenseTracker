@@ -18,7 +18,7 @@ nav h1{
 .total-cash-input-div{
     display: flex;
     justify-content: center;
-    margin: 5px;
+    margin: 10px;
     font-size: 20px;
 }
 .totalCashInput{
