@@ -26,6 +26,9 @@ nav h1{
     padding: 2px;
     
 }
+.totalCashInput:focus{
+    background-color: #F4E285;
+}
 .total-cash-input-btn{
     border: 2px solid black;
     border-radius: 3px;
@@ -34,6 +37,10 @@ nav h1{
 }
 .total-cash-input-btn:hover{
     background-color: #F4A259;
+    transform: scale(1.1);
+    transition: all 1s;
+
+
 }
 
 .balnceCash{
@@ -86,6 +93,9 @@ nav h1{
     
    
 }
+.expense-item:focus{
+    background-color: #F4E285;
+}
 .add-expense-btn-div{
    display: flex;
    justify-content: center;
@@ -100,11 +110,14 @@ nav h1{
     border: 2px solid black;
     border-radius: 4px;
     
+    
 }
 .add-expense-btn:hover{
     background-color:#F4A259;
     cursor: pointer;
     box-shadow: 2px black;
+    transform: scale(1.1);
+    transition: all 1s;
   
 
 }
