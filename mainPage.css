@@ -1,0 +1,75 @@
+
+
+body{
+    margin: 0px;
+    font-family: 'Padauk', sans-serif;
+}
+
+nav {
+    text-align: center;
+    background-color: #F4A259;
+    height: 10vh;
+    margin: 0px;
+}
+nav h1{
+    margin: 0px;
+    padding: 20px;
+}
+.add-item-text{
+    text-align: center;
+}
+.add-input{
+   margin: 5px;
+    font-size: 1.24em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    
+   
+}
+.expense-item{
+    max-width: fit-content;
+    
+    padding: 5px;
+    margin: 5px;
+    font-size: 14px;
+    border: 2px solid black;
+    border-radius: 5px ;
+    
+   
+}
+.add-expense-btn-div{
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   margin: 20px;
+}
+.add-expense-btn{
+    background-color: #F4E285;
+    font-size: 15px;
+    color:black;
+    
+    border: 2px solid black;
+    border-radius: 4px;
+    
+}
+.add-expense-btn:hover{
+    background-color:#F4A259;
+    cursor: pointer;
+    box-shadow: 2px black;
+  
+
+}
+table{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    border: 3px solid black;
+}
+th{
+    padding: 5px;
+    margin: 3px;
+    border-bottom:3px solid black ;
+    font-weight: bold;
+}
