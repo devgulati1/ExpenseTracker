@@ -6,7 +6,9 @@ let enterTotalAmount=document.querySelector(".totalCashInput");
 let enterTotalAmountBtn=document.querySelector(".total-cash-input-btn");
 let totalCash=document.querySelector(".totalCash");
 let balance=document.querySelector(".balance");
-let balancep=document.querySelector(".balancep")
+let balancep=document.querySelector(".balancep");
+let totalCashp=document.querySelector(".totalCashp");
+
 
 
 let addExpense=()=>{
@@ -45,8 +47,7 @@ balanceShow(val);
 // TOTAL CASH FUNCTION 
 let totalCashFn=()=>{
     console.log("click");
-    totalCashp=document.createElement("p");
-    totalCash.appendChild(totalCashp);
+    
     totalCashp.innerHTML=enterTotalAmount.value;
     console.log("total cash inner html "+totalCashp.innerHTML)
     

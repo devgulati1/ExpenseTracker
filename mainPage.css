@@ -60,6 +60,10 @@ nav h1{
     margin: 20px;
     
 }
+.totalCashp{
+    font-size: 1.50em;
+    font-weight: bold;
+}
 .balancep{
     font-size: 1.50em;
     font-weight: bold;
