@@ -6,6 +6,7 @@ let enterTotalAmount=document.querySelector(".totalCashInput");
 let enterTotalAmountBtn=document.querySelector(".total-cash-input-btn");
 let totalCash=document.querySelector(".totalCash");
 let balance=document.querySelector(".balance");
+let balancep=document.querySelector(".balancep")
 
 
 let addExpense=()=>{
@@ -43,7 +44,7 @@ balanceShow(val);
 }
 // TOTAL CASH FUNCTION 
 let totalCashFn=()=>{
-    console.log("click")
+    console.log("click");
     totalCashp=document.createElement("p");
     totalCash.appendChild(totalCashp);
     totalCashp.innerHTML=enterTotalAmount.value;
@@ -52,33 +53,40 @@ let totalCashFn=()=>{
 }
 // BALANCE FUN
 let balanceFn=(balanceVal)=>{
+    // console.log("total cash "+totalCashInBalance)
+    
+    
+    enterTotalAmount.value=enterTotalAmount.value-balanceVal;
+    console.log(enterTotalAmount.value);
+    
+    
 
-// let totalCash=totalCashFnWithoutShow();
-let totalCash=enterTotalAmount.value;
-console.log("totalcash "+totalCash)
-let finalBalance=totalCash-balanceVal;
-return finalBalance;
+
+return enterTotalAmount.value;
+
+
 
 }
 // BALANCE SHOW FUNCTION
 let balanceShow=(val)=>{
-    balancep=document.createElement("p");
-    balance.appendChild(balancep);
-    console.log("val"+val)
+    
     balancep.innerHTML=val;
     
 }
 // CALLING TOTALCASH FUNCTION WITHOUT SHOWING IT
 let totalCashFnWithoutShow=()=>{
-    console.log("click")
-    totalCashp=document.createElement("p");
-    totalCash.appendChild(totalCashp);
-    totalCashpText=totalCashp.innerHTML
+    console.log("click");
+    // totalCashp=document.createElement("p");
+    // totalCash.appendChild(totalCashp);
+    totalCashpText=enterTotalAmount.value;
     console.log("total cash text"+totalCashpText);
     
     return totalCashpText;
 
 }
+
+
+
 // ADDING EVENT LISTNERS
 enterTotalAmountBtn.addEventListener("click",totalCashFn)
 
